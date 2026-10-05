@@ -8,3 +8,5 @@ public class Hello {
         System.out.println("Hello, " + name + "!");
     }
 }
+// Author: Lab Student
+// Email: student@example.invalid
