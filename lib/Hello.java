@@ -1,9 +1,10 @@
+import java.util.Scanner;
+
 public class Hello {
     public static void main(String[] argv) {
-        String name = "World";
-        if (argv.length != 0) {
-            name = argv[0];
-        }
+        System.out.println("What's your name?");
+        Scanner in = new Scanner(System.in);
+        String name = in.nextLine();
         Greeter greeter = new Greeter(name);
         System.out.println(greeter.greet());
     }
